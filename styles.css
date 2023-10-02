@@ -1,0 +1,64 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cursive', cursive; /* Custom Christmas font */
+    background-color: #ffffff; /* Snowy white background */
+    color: #FF0000; /* Christmas red text */
+    text-align: center;
+}
+
+header {
+    background-color: #228B22; /* Christmas green header */
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase; /* Conveys excitement */
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.6; /* Provides clarity */
+    color: #228B22; /* Christmas green text */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.lyrics {
+    background-color: #ffffff; /* Snowy white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.lyrics .verse {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #FF0000; /* Christmas red text */
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Word-specific fonts */
+.lyrics .verse.dashing {
+    font-family: 'Dancing Script', cursive; /* Font mimics dashing */
+    font-size: 26px;
+    color: lightblue;
+}
+
+.lyrics .verse.sleigh {
+    font-family: 'Rock Salt', cursive;
+    font-size: 26px;
+}
+
